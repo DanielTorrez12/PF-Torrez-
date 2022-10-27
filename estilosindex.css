@@ -1,0 +1,102 @@
+body{
+    background-image:url(./Images/fondoprincipal.jpg);
+}
+.navbar {
+
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar-brand {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 0, 19);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 19);
+}
+
+.fa-solid {
+    color: white;
+}
+
+.item {
+   
+    height: 500px;
+    border: 1px solid black;
+
+
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 43, 43);
+    border-radius: 6px;
+    border-right: 5px;
+}
+h4{
+    background-color:rgb(20, 18, 18); 
+    text-align: center;
+    color: white;
+    
+}
+.item1{
+    background-image: url(./Images/RopaHombre/man1.jpg);
+    background-size: cover;
+    background-position: center;    
+ 
+}
+.item2{
+    background-image: url(./Images/RopaHombre/man2.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.item3{
+    background-image: url(./Images/RopaHombre/man3.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.item4{
+    background-image: url(./Images/RopaMujer/mujer1.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.item5{
+    background-image: url(./Images/RopaMujer/mujer2.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.item6{
+    background-image: url(./Images/RopaMujer/Mujer3.jpg);
+    background-size: cover; 
+    background-position: center;    
+}
+footer{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+footer a{
+    letter-spacing: 12px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+}
+footer a:hover{
+    color: rgb(0, 0, 19);
+
+}

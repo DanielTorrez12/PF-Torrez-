@@ -1,0 +1,24 @@
+header{
+    background-color: rgb(44, 43, 43);
+    min-width: 476px;
+}
+.jumbotron{
+background-image: url(./Images/gfg.jpg);
+background-size: cover;
+background-position: center;
+height: 768px;
+min-width: 476px;
+
+}
+.jumbotron h1{
+    text-align: center;
+}
+.jumbotron p{
+    color: white;
+    text-align: center;
+}
+@media (max-width:700px) {
+ .jumbotron{
+    flex-direction: column;
+ }
+}
