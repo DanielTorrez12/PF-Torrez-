@@ -2,6 +2,29 @@ header{
     background-color: rgb(44, 43, 43);
     min-width: 476px;
 }
+.navbar {
+
+    background-color: rgb(43, 43, 43);
+}
+
+.navbar-brand {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 0, 19);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 19);
+}
 .jumbotron{
 background-image: url(./Images/gfg.jpg);
 background-size: cover;
@@ -21,4 +44,9 @@ min-width: 476px;
  .jumbotron{
     flex-direction: column;
  }
+}
+@media(max-height:1157px){
+    .jumbotron{
+       height: 1157px;
+    }
 }

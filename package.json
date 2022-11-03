@@ -1,0 +1,22 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "mi primer web usando sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielTorrez12/proyecto.git"
+  },
+  "author": "DanielTorrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielTorrez12/proyecto/issues"
+  },
+  "homepage": "https://github.com/DanielTorrez12/proyecto#readme",
+  "keywords": [
+    "Ninguan\u001b[2na"
+  ]
+}
