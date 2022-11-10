@@ -1,0 +1,30 @@
+body {
+    background-image: url(./Images/fondoprincipal.jpg);
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+
+
+navbar-brand {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+
+}
+
+&hover {
+    color: rgb(7, 0, 48);
+}
+
+nav-link {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+}
+
+&hover {
+    color: rgb(0, 0, 19);
+}
+}sd
+
+

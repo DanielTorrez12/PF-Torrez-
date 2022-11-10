@@ -1,0 +1,45 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar {
+
+    background-color: rgb(44, 43, 43); 
+    
+}
+
+.navbar-brand {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 0, 19);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 19);
+}
+img{
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+
+.column img{
+    margin-top:5px;
+}

@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
 
@@ -61,6 +61,16 @@
 .container-form i {
     color: red;
     margin-right: 10px;
+}
+.container-form form .campo, textarea{
+width: 100%;
+padding: 15px 10px;
+font-size:15px;
+border: 1px solid #dbdbdb;
+margin-bottom:20px;
+border-radius:3px;
+outline:0px;
+
 }
 
 .container-form textarea {
