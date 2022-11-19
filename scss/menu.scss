@@ -1,0 +1,82 @@
++* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar-brand {
+
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+
+
+    &:hover {
+        color: rgb(7, 0, 48);
+    }
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+
+
+    &:hover {
+        color: rgb(0, 0, 19);
+    }
+}
+
+div {
+
+
+    h4 {
+        background-color: rgb(20, 18, 18);
+        text-align: center;
+        color: white;
+    }
+}
+
+.item {
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.item1 {
+    background-image: url(./Ropa1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(./man2.jpg);
+    @extend .item1;
+}
+
+.item3 {
+    background-image: url(./man3.jpg);
+    @extend .item1;
+}
+
+.item4 {
+    background-image: url(./mujer1.jpg);
+    @extend .item1;
+}
+
+.item5 {
+    background-image: url(./mujer2.jpg);
+    @extend .item1;
+}
+
+.item6 {
+    background-image: url(./Mujer3.jpg);
+    @extend .item1;
+}

@@ -1,0 +1,64 @@
+header {
+    background-color: rgb(44, 43, 43);
+    min-width: 476px;
+}
+
+@mixin Colors ($color1: #ffff) {//usamos mixin
+    color: $color1;
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar-brand {
+
+    @include Colors();//incluimos mixin
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+
+
+    &:hover {
+        color: rgb(7, 0, 48);
+    }
+}
+
+.nav-link {
+    @include Colors();
+    text-shadow: 0 0 5px rgb(7, 0, 48);
+    text-transform: capitalize;
+
+
+    &:hover {
+        color: rgb(0, 0, 19);
+    }
+
+}
+
+.jumbotron {
+    background-image: url(./gfg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 768px;
+    min-width: 476px;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        @include Colors(#808080);
+        text-align: center;
+    }
+}
+
+@media (max-width:700px) {
+    .jumbotron {
+        flex-direction: column;
+    }
+}
+
+@media(max-height:1157px) {
+    .jumbotron {
+        height: 1157px;
+    }
+}

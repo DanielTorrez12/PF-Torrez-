@@ -1,0 +1,93 @@
+@import "colores"; //importamos los colores del "color.scss" para usar el partials"
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Fondo.jpg)
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar-brand {
+
+    color: $colorsBlanco;
+    text-shadow: 0 0 5px $colorsazul;
+
+
+    &:hover {
+        color: $colorsBlanco;
+    }
+}
+
+.nav-link {
+    color: $colorsBlanco;
+    text-shadow: 0 0 5px $colorsazul;
+    text-transform: capitalize;
+
+
+
+    &:hover {
+        color: rgb(0, 0, 19);
+    }
+}
+
+
+.form-login {
+    min-width: 320px;
+    max-width: 350px;
+    height: 350px;
+    background-color: rgb(52, 52, 173);
+    margin: auto;
+    margin-top: 150px;
+    padding: 80px 60px;
+    box-shadow: 5px 5px 5px $colorsazul;
+    border-top: 5px solid rgb(66, 66, 114);
+    color: $colorsBlanco;
+
+    h3 {
+        margin: 0;
+        text-align: center;
+        height: 30px;
+        margin-bottom: 15px;
+        border-bottom: 3px solid;
+    }
+
+    p {
+        text-align: center;
+        height: 30PX;
+        border-bottom: 2px solid;
+    }
+
+    a {
+        color: $colorsazul;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    &hover {
+        text-decoration: underline;
+    }
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding: 7px 7px;
+    background-color: rgb(51, 51, 68);
+    font-size: 11px;
+    font-weight: 4px;
+}
+
+.buttons {
+    width: 100%;
+    height: 30px;
+    background: rgb(66, 66, 114);
+    margin-bottom: 12px;
+}

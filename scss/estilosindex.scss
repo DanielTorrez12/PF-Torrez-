@@ -1,0 +1,112 @@
+//usamos variables//
+$color-blanco:#ffff;
+$color-azul:#070030;
+
+body {
+    background-image: url(./fondoprincipal.jpg);
+}
+
+.navbar {
+    background-color: rgb(44, 43, 43);
+}
+
+.navbar-brand {
+
+    color: $color-blanco;
+    text-shadow: 0 0 5px $color-azul;
+
+
+    &:hover {
+        color: $color-azul;//usamos &//
+    }
+}
+
+.nav-link {
+    color: $color-blanco;
+    text-shadow: 0 0 5px $color-azul;
+    text-transform: capitalize;
+
+
+    &:hover {
+        color: $color-azul;
+    }
+
+    fa-solid {
+        color: $color-blanco;
+    }
+}
+
+
+
+.item {
+    height: 500px;
+    border: 1px solid black;
+}
+
+.body::-webkit-scrollbar {
+    width: 5px;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background-color: rgb(44, 43, 43);
+    border-radius: 6px;
+    border-right: 5px;
+}
+
+div {
+
+
+    h4 {
+        background-color: rgb(20, 18, 18);
+        text-align: center;
+        color: $color-blanco;
+    }
+}
+
+.item1 {
+    background-image: url(./man1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item2 {
+    background-image: url(./man2.jpg);
+    @extend .item1;
+}
+
+.item3 {
+    background-image: url(./man3.jpg);
+    @extend .item1;
+}
+
+.item4 {
+    background-image: url(./mujer1.jpg);
+    @extend .item1;
+}
+
+.item5 {
+    background-image: url(./mujer2.jpg);
+    @extend .item1;
+}
+
+.item6 {
+    background-image: url(./Mujer3.jpg);
+    @extend .item1;
+}
+
+footer {
+    background-color: rgb(44, 43, 43);
+    color: $color-blanco;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+div-class {
+    a {
+        letter-spacing: 12px;
+        font-size: 40px;
+        color: $color-blanco;
+        text-shadow: 0 0 5px rgb(7, 0, 48);
+    }
+}
